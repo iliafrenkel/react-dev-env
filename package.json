@@ -1,6 +1,6 @@
 {
   "name": "react-dev-env",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Example of development environment setup for React",
   "main": "index.html",
   "scripts": {
@@ -8,6 +8,12 @@
   },
   "author": "Ilia Frenkel <frenkel.ilia@gmail.com>",
   "license": "ISC",
+  "keywords": [
+    "react",
+    "environment",
+    "setup",
+    "webpack"
+  ],
   "dependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
@@ -16,6 +22,10 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.0",
+    "eslint-plugin-react": "^6.10.0"
   },
   "babel": {
     "presets": [
