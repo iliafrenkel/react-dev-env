@@ -1,6 +1,6 @@
 {
   "name": "react-dev-env",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "Example of development environment setup for React",
   "main": "index.html",
   "scripts": {
