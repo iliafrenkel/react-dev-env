@@ -1,17 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-var HelloWorld = React.createClass({
-	render: function() {
-		return (
-			<p>Hello, {this.props.greetTarget}!</p>
-		);
-	}
-});
+import HelloWorld from "./components/HelloWorld";
 
 ReactDOM.render(
 	<div>
 		<h1>Sherlock Holmes</h1>
+		<HelloWorld />
 		<HelloWorld greetTarget="Batman" />
 		<HelloWorld greetTarget="Iron Man" />
 		<HelloWorld greetTarget="Nicolas Cage" />
