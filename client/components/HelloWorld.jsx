@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from "react";
 
 /**
@@ -6,7 +7,7 @@ import React from "react";
  * and buy yourself a beer or a doughnut. Whatever tickles your
  * fancy.
  */
-class HelloWorld extends React.Component {
+export default class HelloWorld extends React.Component {
 	render() {
 		return (
 			<p>Hello, {this.props.greetTarget}!</p>
@@ -21,11 +22,9 @@ HelloWorld.propTypes = {
 	 * utmost power and a lot of excitement.
 	 * @type {string}
 	 */
-	greetTarget: React.PropTypes.string.isRequired,
+	'greetTarget': PropTypes.string.isRequired
 }
 
 HelloWorld.defaultProps = {
-	greetTarget: 'World'
+	'greetTarget': 'World'
 }
-
-module.exports = HelloWorld
