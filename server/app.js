@@ -1,5 +1,6 @@
 /* eslint max-params: ["error", 4] */
 /* eslint no-unused-vars: ["error", { "args": "none" }] */
+/* eslint no-console: "off" */
 
 const bodyParser = require('body-parser');
 const express = require('express');
